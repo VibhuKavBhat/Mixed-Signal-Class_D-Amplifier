@@ -1,0 +1,14 @@
+# Ignore Vivado generated folders
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+.Xil/
+
+# Ignore Vivado log files
+*.jou
+*.log
+*.str
+*.pb
+*.wdb
+*.dir/
