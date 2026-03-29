@@ -17,6 +17,6 @@
 *.runs/
 *.dcp
 
-# Ignore compiled bitstreams 
+# Ignore compiled bitstreams.
 *.bit
 *.bin
