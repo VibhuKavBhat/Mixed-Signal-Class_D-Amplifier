@@ -12,3 +12,11 @@
 *.pb
 *.wdb
 *.dir/
+
+# Ignore Synthesis and Implementation build folders
+*.runs/
+*.dcp
+
+# Ignore compiled bitstreams 
+*.bit
+*.bin
