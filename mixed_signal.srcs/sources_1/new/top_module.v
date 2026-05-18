@@ -2,7 +2,7 @@ module top_module(
 
     //input [7:0] freq_sel,
     input rst,
-    input start,
+    //input start,
     input clk,
     output out1,
     output out2
@@ -78,7 +78,7 @@ module top_module(
         else pwm_raw <= (audio >= sawtooth);
     end
 
-// 2. The 20-cycle Shift Register (Minimal Delay)
+// delay for the deadtime
     reg [deadtime-1:0] delay_reg;
     always @(posedge clk) begin
         delay_reg <= {delay_reg[deadtime-2:0], pwm_raw};
